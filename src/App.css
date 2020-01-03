@@ -3,29 +3,58 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 30vmin;
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
+
 
 .App-header {
-  background-color: #282c34;
+  background-color: black;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  
   color: white;
 }
-
+/* 
 .App-link {
   color: #61dafb;
+} */
+
+.button-logo{
+  background-color: yellowgreen;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  min-height: 10vh;
+  min-width: 50vh;
+  
+}
+
+.ResultTable{
+ 
+ 
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  border: none
+  
+}
+
+.Answer{
+  color: yellow;
+  font-family: 'Roboto', sans-serif;
+  border: none
+}
+
+.Results{
+  justify-content: center;
 }
 
 @keyframes App-logo-spin {
